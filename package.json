@@ -9,7 +9,7 @@
       "prisma",
       "sharp"
     ]
-  }
+  },
   "description": "Multi-user Cloudflare DNS management panel with RBAC, multi-account support and AES-256-GCM token encryption",
   "license": "MIT",
   "keywords": [
