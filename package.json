@@ -1,6 +1,15 @@
 {
   "name": "cloudflare-dns-admin",
   "version": "0.2.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@prisma/client",
+      "@prisma/engines",
+      "esbuild",
+      "prisma",
+      "sharp"
+    ]
+  }
   "description": "Multi-user Cloudflare DNS management panel with RBAC, multi-account support and AES-256-GCM token encryption",
   "license": "MIT",
   "keywords": [
